@@ -165,6 +165,8 @@ sns.histplot(df['Sales'], bins=30)
 plt.title("Sales Distribution")
 plt.show()
 ```
+<img width="568" height="441" alt="Screenshot 2026-09-05 152242" src="https://github.com/user-attachments/assets/485e99af-1191-4ba0-be22-a88d725a7ffc" />
+
 
 This produces a histogram showing how individual sale amounts are distributed (right-skewed, with most sales clustered at lower values and a long tail of higher-value orders).
 
@@ -179,6 +181,14 @@ sns.boxplot(data=df, x="Category", y="Profit")
 plt.title("Profit Variation Across Categories")
 plt.show()
 ```
+<img width="562" height="441" alt="Screenshot 2026-09-05 152130" src="https://github.com/user-attachments/assets/23534e69-3339-4cd8-9c51-330732f6e63f" />
+<img width="568" height="441" alt="Screenshot 2026-09-05 152242" src="https://github.com/user-attachments/assets/391de936-503f-4a19-937d-2389516ea837" />
+<img width="557" height="395" alt="Screenshot 2026-09-05 152310" src="https://github.com/user-attachments/assets/6406c5da-0a6b-406b-8180-3c4ee978be90" />
+<img width="584" height="448" alt="Screenshot 2026-09-05 152402" src="https://github.com/user-attachments/assets/dc280876-0b25-486d-9d22-b61ef03c482c" />
+
+
+
+
 
 These plots reveal which categories are most/least profitable and how spread out profit values are within each category (including outliers).
 
@@ -189,6 +199,8 @@ sns.scatterplot(data=df, x="Discount", y="Profit")
 plt.title("Impact of Discount on Profit")
 plt.show()
 ```
+<img width="583" height="420" alt="Screenshot 2026-09-05 152420" src="https://github.com/user-attachments/assets/8b27591b-0498-4095-b59b-86bd0944e1ea" />
+
 
 Helps visualize whether higher discounts correlate with reduced (or negative) profit.
 
@@ -202,6 +214,9 @@ sns.heatmap(corr, annot=True)
 plt.title("Correlation Heatmap")
 plt.show()
 ```
+<img width="596" height="483" alt="Screenshot 2026-09-05 152443" src="https://github.com/user-attachments/assets/abe4f676-8cae-4321-9260-6f310a1a3cf7" />
+
+
 
 Shows how numeric features (Sales, Profit, Discount, Quantity, etc.) relate to one another.
 
